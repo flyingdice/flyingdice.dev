@@ -1,0 +1,16 @@
+- title: Location
+  link: https://goo.gl/maps/kUBP3GgPGiG2
+  class: fa fa-2x fa-map-marker social-icon
+- title: GitHub
+  link: https://github.com/flyingdice
+  class: fa fa-2x fa-github-alt social-icon
+- title: Twitter
+  link: https://twitter.com/flyingdicellc
+  class: fa fa-2x fa-twitter social-icon
+- title: Email
+  link: mailto:andrew@flyingdice.dev
+  class: fa fa-2x fa-envelope social-icon
+- title: RSS
+  link: /feed.xml
+  class: fa fa-2x fa-rss social-icon
+
