@@ -2,7 +2,7 @@
 
 The flyingdice website.
 
-Available at <https://flyingdice.dev>.
+Available at <https://flyingdice.dev> and <https://flyingdice.github.io>.
 
 Powered by:
 
