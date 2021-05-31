@@ -13,7 +13,7 @@ github_username:  flyingdice
 twitter:
   card: summary
   username: flyingdicellc
-logo: /assets/images/logo.png
+logo: /assets/images/logo.svg
 social:
   name: Flying Dice
   links:
@@ -62,4 +62,4 @@ defaults:
       path: ''
       type: posts
     values:
-      image: /assets/images/logo.png
+      image: /assets/images/logo.svg
