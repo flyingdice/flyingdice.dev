@@ -1,0 +1,15 @@
+- title: Probot-Py
+  subtitle: Build GitHub Apps quickly in Python
+  url: https://github.com/flyingdice/probot-py
+  description: ''
+  license: Apache 2.0
+- title: Github Webhook Types
+  subtitle: Python type definitions for GitHub webhooks
+  url: https://github.com/flyingdice/github-webhook-types
+  description: ''
+  license: Apache 2.0
+- title: Geonames SQLite
+  subtitle: Generate SQLite database from open datasets
+  url: https://github.com/flyingdice/geonames-sqlite
+  description: ''
+  license: Apache 2.0

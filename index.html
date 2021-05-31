@@ -1,0 +1,15 @@
+---
+layout: home
+title: Flying Dice
+---
+
+<div class="container-xl clearfix">
+  {% for project in site.data.projects %}
+  <div class="col-4 float-left border p-4">
+    <a href="{{ project.url }}"><b>{{ project.title }}</b></a>
+    <br/>
+    <p>{{ project.subtitle }}</p>
+    <a href="{{ project.url }}/blob/main/LICENSE">{{ project.license }}</a>
+  </div>
+  {% endfor %}
+</div>
