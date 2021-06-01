@@ -1,4 +1,5 @@
 <footer>
+    <a name="footer"></a>
     <hr class="footer-hr">
     <ul class="social-links">
       {% for entry in site.data.social %}
@@ -8,5 +9,12 @@
   <div class="credits">
     <span>&copy; 2020 - {{ site.time | date: '%Y' }} &nbsp;&nbsp;{{ site.author | upcase }}</span></br> <br>
     <span>Code for this website can be found <a href="{{ site.source_url }}">here</a>.</span>
+  </div>
+  <div>
+    <p class="text-center text-italic">
+      Flying Dice is a <a href="https://en.wikipedia.org/wiki/Washington_(state)">Washington</a> based
+      <a href="https://en.wikipedia.org/wiki/Limited_liability_company">LLC</a> that builds and releases
+      open source software. All rights reserved.
+    </p>
   </div>
 </footer>
