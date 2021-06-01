@@ -3,13 +3,42 @@ layout: home
 title: Flying Dice
 ---
 
+<!-- Projects -->
 <div class="container-xl clearfix">
+  <h2 class="text-center">
+    <a name="projects">Projects</a>
+  </h2>
   {% for project in site.data.projects %}
-  <div class="col-4 float-left border p-4">
+  <div class="col-4 float-left p-4">
     <a href="{{ project.url }}"><b>{{ project.title }}</b></a>
     <br/>
     <p>{{ project.subtitle }}</p>
     <a href="{{ project.url }}/blob/main/LICENSE">{{ project.license }}</a>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Team -->
+<div class="container-xl clearfix">
+  <h2 class="text-center">
+    <a name="team">Meet the team</a>
+  </h2>
+  {% for author in site.data.authors %}
+  <div class="col-6 float-left p-4">
+    <div class="clearfix">
+      <div class="col-4 mx-auto">
+        <img class="avatar circle" src="{{ author.picture }}"/>
+      </div>
+      <div class="col-8 mx-auto text-center">
+        <div>
+          <h2 class="text-normal lh-condensed">
+            <a href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+          </h2>
+        </div>
+        <h4>{{ author.title }}</h4>
+        <p>{{ author.summary }}</p>
+      </div>
+    </div>
   </div>
   {% endfor %}
 </div>
