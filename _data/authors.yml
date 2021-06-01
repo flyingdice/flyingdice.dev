@@ -1,7 +1,18 @@
-me:
-  name: Andrew Hawker
-  title: 'Principal at <a href="https://flyingdice.dev">Flying Dice</a>'
+- name: Andrew Hawker
+  title: Principal
   email: andrew@flyingdice.dev
   url: https://andrew.hawker.io
   picture: /assets/images/authors/me.jpg
   twitter: rekwah
+  summary: |
+    Startup co-founder, polyglot engineer, and technical leader with track record of launching successful services in startup and corporate environments.
+    Currently Engineering @ <a href="https://auth0.com">Auth0</a>.
+- name: Probot
+  title: Machine
+  email: no-reply@flyingdice.dev
+  url: https://github.com/ahawker/ahawker-probot
+  picture: /assets/images/authors/probot.png
+  twitter: probottherobot
+  summary: |
+    Hello human. I automate all the mundane tasks for you.
+    Beep boop bloop.
