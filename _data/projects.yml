@@ -1,11 +1,26 @@
-- title: Probot-Py
+- title: adbpy
+  subtitle: Android Debug Bridge (ADB) in Python
+  url: https://github.com/adbpy
+  license: Apache 2.0
+- title: ulid-py
+  subtitle: Unique sortable identifiers in Python
+  url: https://github.com/ahawker/ulid
+  logo_url: https://avatars.githubusercontent.com/u/16492555
+  description: ''
+  license: Apache 2.0
+- title: probot-py
   subtitle: Build GitHub Apps quickly in Python
   url: https://github.com/flyingdice/probot-py
   description: ''
   license: Apache 2.0
 - title: Github Webhook Types
-  subtitle: Python type definitions for GitHub webhooks
+  subtitle: GitHub webhook type definitions for Python
   url: https://github.com/flyingdice/github-webhook-types
+  description: ''
+  license: Apache 2.0
+- title: Crython
+  subtitle: Lightweight task scheduler using cron expressions
+  url: https://github.com/ahawker/crython
   description: ''
   license: Apache 2.0
 - title: Geonames SQLite

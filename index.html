@@ -20,12 +20,15 @@ title: Flying Dice
     <a name="projects">Projects</a>
   </h2>
   {% for project in site.data.projects %}
-  <div class="col-4 float-left p-4 text-center">
-    <a class="text-bold" href="{{ project.url }}" target="_blank">{{ project.title }}</a>
-    <br/>
-    <p>{{ project.subtitle }}</p>
-    <a href="{{ project.url }}/blob/main/LICENSE">{{ project.license }}</a>
+  <div class="col-lg-4 col-m-4 col-sm-6 col-xs-12 float-sm-left p-2">
+    <div class="d-flex flex-column flex-md-row flex-items-center flex-md-items-center">
+      <div class="col-12 d-flex flex-column flex-justify-center flex-items-center">
+        <a class="h3 flex-justify-center mb-2" href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+        <p class="h4 flex-justify-center text-gray text-normal mb-2">{{ project.subtitle }}</p>
+      </div>
+    </div>
   </div>
+
   {% endfor %}
 </div>
 
